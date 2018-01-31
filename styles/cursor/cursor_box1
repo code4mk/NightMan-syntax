@@ -1,0 +1,5 @@
+/* cursor box shadow */
+
+.cursor-line {
+  box-sizing: border-box;
+}

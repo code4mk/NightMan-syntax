@@ -1,14 +1,16 @@
 {
   "name": "NightMan-syntax",
   "theme": "syntax",
+  "main": "./lib/night_color",
   "version": "1.0.0",
-  "description": "A NightMan syntax theme for Atom.kamal",
+  "description": "A NightMan syntax theme for Atom.",
   "keywords": [
     "colorful",
     "Night Man",
     "dark",
     "syntax",
-    "devTheme"
+    "devTheme",
+    "code4mk"
   ],
   "repository": "https://github.com/code4mk/NightMan-syntax",
   "license": "MIT",
