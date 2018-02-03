@@ -6,6 +6,7 @@ module.exports =
       type: 'boolean'
       default: false
       description: 'Use cursor Box (need to restart atom)'
+
     CursorBgColor:
       type: 'boolean'
       default: false
@@ -19,6 +20,6 @@ atom.config.onDidChange 'NightMan-syntax.CursorBox', ({newValue, oldValue}) ->
 
 atom.config.onDidChange 'NightMan-syntax.CursorBgColor', ({newValue, oldValue}) ->
    if(newValue)
-     fs.createReadStream(atom.packages.getPackageDirPaths() + '/NightMan-syntax/styles/cursor-bg/bg-color').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/NightMan-syntax/styles/cursor/bg-color.less'));
+     fs.createReadStream(atom.packages.getPackageDirPaths() + '/NightMan-syntax/styles/cursor-bg/bg_color').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/NightMan-syntax/styles/cursor-bg/bg_color.less'));
    else
-     fs.createReadStream(atom.packages.getPackageDirPaths() + '/NightMan-syntax/styles/cursor-bg/bg-color-zero').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/NightMan-syntax/styles/cursor/bg-color.less'));
+     fs.createReadStream(atom.packages.getPackageDirPaths() + '/NightMan-syntax/styles/cursor-bg/bg_color_zero').pipe(fs.createWriteStream(atom.packages.getPackageDirPaths() + '/NightMan-syntax/styles/cursor-bg/bg_color.less'));
