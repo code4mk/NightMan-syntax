@@ -2,7 +2,7 @@
   "name": "NightMan-syntax",
   "theme": "syntax",
   "main": "./lib/night_color",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A NightMan syntax theme for Atom.",
   "keywords": [
     "colorful",
