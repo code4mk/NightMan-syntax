@@ -11,4 +11,13 @@ apm install devtheme
 ~ courtesy :
 * Pure syntax
 
-NB: // customize for NightMan
+# Demo image
+
+* devTheme
+* Fira Code Retina
+* nightman
+
+<p align="center" ><img src="/demo-img/less.png"></p>
+
+NB: code4mk official atom syntax with Devtheme.
+
